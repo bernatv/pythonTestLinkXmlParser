@@ -10,9 +10,9 @@ It's only needed to create a .txt file with the tests cases data that you want t
 The txt file with the tests cases have to follow the next format:
 
     Create something
-    	action1	expect1
-    	action2	expect2
-    	action3	expect3
+    	action1		expect1
+    	action2		expect2
+    	action3		expect3
     
     Create something2
     	action11	expect11
@@ -24,6 +24,8 @@ The txt file with the tests cases have to follow the next format:
     	action23	expect23
     	action34	expect34
     	
+*Fist is needed the title of step and then the next line started with a tab goes the action and splited with another tab, the expect result. 
+
 	
 This example will add three test cases with actions and expected result for each one
 
