@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <testcases>
-<testcase internalid="56321" name="Should be able to open autocomplete user menu on tasks comments">
+<testcase internalid="56321" name="title">
 	<node_order><![CDATA[1000]]></node_order>
 	<externalid><![CDATA[3606]]></externalid>
 	<version><![CDATA[1]]></version>
