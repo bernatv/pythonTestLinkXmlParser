@@ -3,9 +3,14 @@
 ## How to use
 
 This is an easy python script to add a lot of testlink test cases in a easy way. 
-It's only needed to create a .txt file with the tests cases data that you want to import inside a testsuite in xml format. 
+It's only needed to create a .txt file with the tests cases data that you want to import inside a testsuite in xml format.
 
-### TXT source data
+Open terminal:
+
+    python create_suite.py 
+
+The script creates a 
+### TXT source data 'testcases.xml' that it has to be imported as an xml testcases format into testLink 
 
 The txt file with the tests cases have to follow the next format:
 
