@@ -1,0 +1,21 @@
+Create a tasklist
+	Tap on plus button	Create tasklist screen must be shown
+	Tap on title label	Keyboard must be shown
+	Type the new tasklist name 	Label with the new tasklist name must be shown
+	Tap on save button	Tasklist must be shown
+
+Create something
+	action1	expect1
+	action2	expect2
+	action3	expect3
+
+Create something2
+	action11	expect11
+	action22	expect22
+	action33	expect33
+
+Create something3
+	action12	expect12
+	action23	expect23
+	action34	expect34
+	
