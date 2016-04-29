@@ -4,7 +4,6 @@ from xml.etree.ElementTree import Element, SubElement, Comment
 BASE_FILE = 'baseTestCase.xml'
 SOURCE_FILE = 'test_data.txt'
 TAG_NAME = 'testcase'
-OUTFILE = 'output.xml'
 STEPS_FILE = 'create_new_user.xml'
 STEPS_SOURCE = 'test_data_steps.txt'
 TAB = '\t'
@@ -31,28 +30,6 @@ def clean_steps(steps):
     epected_result = expected_result[0:expected_result_size - 1] 
     step[1] = epected_result
     return step
-
-#
-#  It creates a small xml to load test cases on testLink only with title
-#
-def create_xml():
-    tree = etree.parse(BASE_FILE)
-    cases = tree.getroot()
-    data = open(SOURCE_FILE)
-    data_hash = data.readlines()
-
-    result = {}
-
-    index = 0
-    for title in data_hash:
-        new = etree.Element(TAG_NAME, name=title)
-        cases.append(new)
-
-    cases[0].clear()
-    tree.write(OUTFILE)
-
-#create_xml()
-
 
 #
 #  It creates a small xml to load test cases on testLink with title and steps 
